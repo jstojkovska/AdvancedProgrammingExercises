@@ -75,7 +75,7 @@ class Movie {
     public double avgRating() {
         int suma = 0;
         for (Integer rating : ratings) {
-            suma += rating;
+            suma = suma + rating;
         }
         return (double) suma / ratings.size();
     }
